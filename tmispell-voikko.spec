@@ -8,7 +8,7 @@ Summary:	Ispell compatible front-end for Voikko
 Name:		%name
 Version:	%version
 Release:	%mkrel %rel
-License:	GPL
+License:	GPLv2+
 Group:		Text tools
 URL:            http://voikko.sourceforge.net/
 Source:         http://downloads.sourceforge.net/voikko/%name-%version.tar.gz
@@ -58,7 +58,7 @@ rm -rf %{buildroot}
 
 %files -f %name.lang
 %defattr(-,root,root)
-%doc AUTHORS ChangeLog LUEMINUT NEWS README
+%doc AUTHORS ChangeLog NEWS README README.fi
 %config %{_sysconfdir}/tmispell.conf
 %{_bindir}/ispell
 %{_bindir}/tmispell
