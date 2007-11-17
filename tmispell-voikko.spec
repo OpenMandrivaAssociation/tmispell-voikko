@@ -1,7 +1,7 @@
 
 %define name	tmispell-voikko
 %define shortname	tmispell
-%define version	0.6.2
+%define version	0.6.3
 %define rel	1
 
 Summary:	Ispell compatible front-end for Voikko
@@ -11,7 +11,7 @@ Release:	%mkrel %rel
 License:	GPL
 Group:		Text tools
 URL:            http://voikko.sourceforge.net/
-Source:         http://downloads.sourceforge.net/voikko/%name-%version.tar.bz2
+Source:         http://downloads.sourceforge.net/voikko/%name-%version.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires:	ncurses-devel
 BuildRequires:	glib2-devel
