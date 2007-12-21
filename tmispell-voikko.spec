@@ -12,6 +12,7 @@ License:	GPLv2+
 Group:		Text tools
 URL:            http://voikko.sourceforge.net/
 Source:         http://downloads.sourceforge.net/voikko/%name-%version.tar.gz
+BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires:	ncurses-devel
 BuildRequires:	glib2-devel
 BuildRequires:	voikko-devel
