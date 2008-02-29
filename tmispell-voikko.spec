@@ -1,7 +1,7 @@
 
 %define name	tmispell-voikko
 %define shortname	tmispell
-%define version	0.6.3
+%define version	0.7
 %define rel	1
 
 Summary:	Ispell compatible front-end for Voikko
@@ -13,8 +13,9 @@ Group:		Text tools
 URL:            http://voikko.sourceforge.net/
 Source:         http://downloads.sourceforge.net/voikko/%name-%version.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-root
-BuildRequires:	ncurses-devel
+BuildRequires:	libncursesw-devel
 BuildRequires:	glib2-devel
+BuildRequires:	glibmm2.4-devel
 BuildRequires:	voikko-devel
 Conflicts:	ispell
 # Only Finnish is supported currently, remove these if more are added
