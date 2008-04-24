@@ -56,7 +56,10 @@ install -d -m755 %{buildroot}%{_prefix}/lib/ispell
 touch %{buildroot}%{_prefix}/lib/ispell/fi.{hash,aff}
 
 # (anssi 04/2008) KDE searches from libdir instead
+%if "%_lib" != "lib"
+install -d -m755 %{buildroot}%{_libdir}
 ln -s %{_prefix}/lib/ispell %{buildroot}%{_libdir}/ispell
+%endif
 
 %find_lang %name
 
