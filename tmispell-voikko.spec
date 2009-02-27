@@ -1,8 +1,8 @@
 
 %define name	tmispell-voikko
 %define shortname	tmispell
-%define version	0.7
-%define rel	3
+%define version	0.7.1
+%define rel	1
 
 Summary:	Ispell compatible front-end for Voikko
 Name:		%name
