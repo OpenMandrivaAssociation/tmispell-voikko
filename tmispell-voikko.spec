@@ -10,7 +10,7 @@ Version:	%version
 Release:	%mkrel %rel
 License:	GPLv2+
 Group:		Text tools
-URL:            http://voikko.sourceforge.net/
+URL:            https://voikko.sourceforge.net/
 Source:         http://downloads.sourceforge.net/voikko/%name-%version.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires:	libncursesw-devel
